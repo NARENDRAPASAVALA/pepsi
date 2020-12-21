@@ -1,0 +1,50 @@
+body {
+    background-color: blue;
+}
+
+.image {
+    padding-left: 75vh;
+    padding-top: 25vh;
+}
+
+.heading {
+    /* padding-left: 75vh; */
+    size: 24pt;
+    text-align: center;
+    line-height: 32pt;
+    letter-spacing: 0.48pt;
+    color: rgb(255, 255, 255);
+}
+
+.paragraph {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0.48pt;
+    color: rgb(255, 255, 255);
+}
+
+.started {
+    padding-left: 75vh;
+    width: 315pt;
+    height: 46pt;
+    border-radius: 4pt;
+    color: rgb(255, 222, 0)
+}
+
+.button {
+    width: 315pt;
+    height: 46pt;
+    border-radius: 4pt;
+    background-color: rgb(255, 222, 0);
+    font-size: 16pt;
+    line-height: 19pt;
+    text-align: center;
+    color: rgb(0 0 0);
+    font-family: Lato;
+}
+
+.button a {
+    width: 82pt;
+    height: 19pt;
+}
