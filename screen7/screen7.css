@@ -1,0 +1,50 @@
+body {
+    background-color: blue;
+    margin: auto;
+    width: 40%; 
+}
+
+.image {
+    position: absolute;
+    /* left: 80pt; */
+    padding-left: 35pt;
+    top:  30pt;
+    width: 196pt;
+    height: 74pt;
+}
+
+h5 {
+    width: 150pt;
+    height: 27pt;
+    font-size: 20pt;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 27pt;
+    color: rgb(255, 255, 255);
+    padding-left: 60pt;
+    padding-top: 100pt;
+}
+
+.para {
+    width: 261pt;
+    height: 40pt;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 19pt;
+    color: rgb(255, 255, 255);
+    padding-left: 45pt;
+}
+
+.spin-wheel {
+    padding-left: 70pt;
+}
+.spin {
+    width: 120pt;
+    height: 42pt;
+    border-radius: 4pt;
+    color: black;
+    /* background-color: rgb(255, 222, 0); */
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1.6pt;
+    /* opacity: 70%; */
+}

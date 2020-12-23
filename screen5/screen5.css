@@ -1,0 +1,82 @@
+body {
+    background-color: blue;
+    margin: auto;
+    width: 40%; 
+}
+
+.image {
+    position: absolute;
+    /* left: 80pt; */
+    padding-left: 35pt;
+    top:  30pt;
+    width: 196pt;
+    height: 74pt;
+}
+
+h5 {
+    width: 208pt;
+    height: 27pt;
+    font-size: 20pt;
+    text-align: center;
+    text-align: left;
+    line-height: 27pt;
+    color: rgb(255, 255, 255);
+    padding-left: 60pt;
+    padding-top: 100pt;
+}
+
+.paragraph p {
+    width: 273pt;
+    height: 38pt;
+    font-size: 16pt;
+    text-align: center;
+    line-height: 19pt;
+    color: rgb(255, 255, 255);
+    /* padding-top: 152pt; */
+}
+.rating {
+    font-size: 38pt;
+    /* text-align: center; */
+    height: 36.3pt;
+    padding-left: 55pt;
+}
+
+.checked {
+    color: rgb(255,222,0);
+}
+
+.code p {
+    text-transform: uppercase;
+    /* text-align: center; */
+    font-size: 16pt;
+    line-height: 19pt;
+    color: rgb(255, 255, 255);
+    /* padding-left: -35px; */
+    padding-top: 88.5pt;
+    padding-left: 75pt;
+}
+
+.message {
+    width: 88pt;
+    height: 111pt;
+    padding-left: 118pt;
+}
+
+.started {
+    width: 315pt;
+    height: 46pt;
+    border-radius: 4pt;
+    color: rgb(255, 222, 0)
+}
+
+.button {
+    width: 315pt;
+    height: 46pt;
+    border-radius: 4pt;
+    background-color: rgb(255, 222, 0);
+    font-size: 16pt;
+    line-height: 19pt;
+    text-align: center;
+    color: rgb(0 0 0);
+    font-family: Lato;
+}

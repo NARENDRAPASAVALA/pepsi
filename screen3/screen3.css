@@ -1,0 +1,55 @@
+body {
+    background-color: blue;
+    margin: auto;
+    width: 40%;
+}
+
+.image {
+    position: absolute;
+    /* left: 80pt; */
+    padding-left: 65pt;
+    top:  30pt;
+    width: 196pt;
+    height: 74pt;
+}
+
+.heading {
+    text-transform: uppercase;
+    /* width: 284pt; */
+    padding-top: 100pt;
+    height: 54pt;
+    margin-left: -110px;
+    /* left: 46pt; */
+    /* top: 118pt; */
+    font-size: 20pt;
+    font-family: Nunito-Bold;
+    text-align: center;
+    line-height: 27pt;
+    color: rgb(255, 255, 255);
+}
+
+.paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    text-align: center;
+    line-height: 19pt;
+}
+
+.started {
+    width: 315pt;
+    height: 46pt;
+    border-radius: 4pt;
+    color: rgb(255, 222, 0)
+}
+
+.button {
+    width: 315pt;
+    height: 46pt;
+    border-radius: 4pt;
+    background-color: rgb(255, 222, 0);
+    font-size: 16pt;
+    line-height: 19pt;
+    text-align: center;
+    color: rgb(0 0 0);
+    font-family: Lato;
+}

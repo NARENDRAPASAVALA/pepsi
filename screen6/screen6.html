@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>screen06</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="app.css"> -->
+    <link rel="stylesheet" href="screen6.css">
+    <script src="./screen6.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="image">
+                    <img src="../Image 22.png">
+                </div>
+                <div class="heading1">
+                    <h5>Spin & Win</h5>
+                </div>
+                <div class="para">
+                    <p>Click the ‘Spin’ button to find out if you have won</p>
+                </div>
+                <hr>
+                <div class="wheel" id="wheel">
+                    <img src="./Group 2123.png">
+                        <div class="panel">
+                                <div class="slotwrapper" id="example6">
+                                    <ul style="top: 0px;">
+                                        <li style="margin-left: -10px;"><img src="./Image 14.png"></li>
+                                        <li style="margin-left: -10px;"><img src="./Image 14.png"></li>
+                                        <li style="margin-left: -10px;"><img src="./Image 14.png"></li>
+                                    </ul>
+                                    <ul style="top: 0px;">
+                                        <li style="margin-left: -6px;"><img src="./Image 25.png"></li>
+                                        <li><img src="./Image 14.png"></li>
+                                        <li><img src="./Image 14.png"></li>
+                                        <li><img src="./Image 14.png"></li>
+                                        <li class="text-danger"><img src="./Image 14.png"></li>
+                                    </ul>
+                                    <ul style="top: 0px;">
+                                        <li ><img src="./Image 26.png"></li>
+                                        <li><img src="./Image 14.png"></li>
+                                        <li style="margin-top: -10px;"><img src="./Image 14.png"></li>
+                                        <li><img src="./Image 14.png"></li>
+                                        <li><img src="./Image 14.png"></li>
+                                        <li class="text-danger"><img src="./Image 14.png"></li>
+                                </div>
+                                <div>
+                                    <!-- <button type="button" class="btn btn-success btn-lg" id="btn-example6">Start Spin!</button> -->
+                            <!-- </div> -->
+                            <!-- <div class="spin-wheel"> -->
+                                <button type="button" class="btn btn-success btn-lg" id="btn-example6" (click)="spin()"> 
+                                    SPIN
+                                </button>
+                        </div>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                    <script src="./slotmachine.min.js"></script>
+                
+                    <script type="text/javascript">
+                        $('#btn-example6').click(function() {
+                            var num1 = $('#example6 ul').val();
+                            var num2 = $('#example6 ul').val();
+                            var num3 = $('#example6 ul').val();
+                            $('#example6 ul').playSpin({
+                                endNum: [0 ,2, 3],
+                            });
+                            // $('#example6 ul').playSpin();
+                        });
+                    </script>
+                </div>
+                <!-- <div class="spin-wheel">
+                    <button class="spin" id="spin"  type="button" class="btn btn-success btn-lg" id="btn-example6"> 
+                        SPIN
+                    </button>
+                </div> -->
+            </div>
+        </div>
+    </body>
+</html>
