@@ -1,1 +1,1 @@
-<?php include_once('./screen1.html'); ?>
+<?php include_once('screen1.html'); ?>
